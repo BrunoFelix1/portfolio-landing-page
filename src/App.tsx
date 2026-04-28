@@ -1,14 +1,10 @@
-import "./App.css";
-
 function App() {
   return (
-    <main className="app">
-      <section className="hero">
+    <main className="bg-red-200 text-white min-h-screen flex items-center justify-center">
+      <section className="bg-gray-800 p-8 rounded-lg text-center">
         <h1>Portfólio Saúde</h1>
         <p>Bem-vindo ao seu novo projeto React com Vite e TypeScript.</p>
-        <a href="#" className="cta">
-          Começar agora
-        </a>
+        <a>Começar agora</a>
       </section>
     </main>
   );
