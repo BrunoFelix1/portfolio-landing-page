@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&display=swap");
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
@@ -9,7 +10,7 @@
   --color-green: #6d947b;
   --color-dark-blue: #07284e;
   --color-light-blue: #8cabcb;
-  --color-off-white: #fcfbf6;
+  --color-offwhite: #f8f6f3;
 }
 
 @theme inline {
@@ -133,5 +134,14 @@
   }
   html {
     @apply font-sans;
+  }
+  .font-heading {
+    font-family: "Lora", serif;
+  }
+  .font-lora {
+    font-family: "Lora", serif;
+  }
+  .font-times {
+    font-family: "Times New Roman", Times, serif;
   }
 }
