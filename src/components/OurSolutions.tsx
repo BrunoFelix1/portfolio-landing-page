@@ -14,7 +14,7 @@ const solutions = [
     description:
       "Cuidados essenciais para manter sua saúde bucal sempre em dia.",
     icon: <Stethoscope className="h-8 w-8" aria-hidden="true" />,
-    iconBg: "bg-[#eaf4ef] text-green",
+    iconBg: "bg-[#6d947b]/20 text-green",
   },
   {
     title: "Estética Dental",
@@ -28,7 +28,7 @@ const solutions = [
     description:
       "Recupere a função e autoestima com implantes dentários de alta qualidade.",
     icon: <ScanHeart className="h-8 w-8" aria-hidden="true" />,
-    iconBg: "bg-[#eaf4ef] text-green",
+    iconBg: "bg-[#6d947b]/20 text-green",
   },
   {
     title: "Ortodontia",
@@ -40,7 +40,7 @@ const solutions = [
     title: "Odontopediatria",
     description: "Cuidado especial para os pequenos sorrisos da família.",
     icon: <Baby className="h-8 w-8" aria-hidden="true" />,
-    iconBg: "bg-[#eaf4ef] text-green",
+    iconBg: "bg-[#6d947b]/20 text-green",
   },
   {
     title: "Prevenção",

@@ -1,6 +1,7 @@
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import OurSolutions from "./components/OurSolutions";
+import WhyUs from "./components/WhyUs";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Hero />
       <OurSolutions />
+      <WhyUs />
     </main>
   );
 }
