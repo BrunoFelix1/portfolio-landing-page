@@ -8,7 +8,6 @@ function Hero() {
       id="home"
       className="relative w-full h-150 flex overflow-hidden bg-offwhite"
     >
-      {/* LEFT SIDE */}
       <div className="w-1/2 flex items-center px-32 z-10">
         <div>
           <h1 className="text-5xl text-dark-blue font-lora leading-tight font-semibold">
@@ -57,7 +56,6 @@ function Hero() {
         </div>
       </div>
 
-      {/* RIGHT IMAGE */}
       <div className="w-1/2 relative">
         <img
           src={womanHero}
@@ -65,7 +63,6 @@ function Hero() {
           className="w-full h-full object-cover"
         />
 
-        {/* CURVED SHAPE */}
         <div className="absolute -left-5 top-0 h-full w-44">
           <svg
             viewBox="0 0 100 100"
@@ -74,7 +71,7 @@ function Hero() {
           >
             <path
               d="M100,0 C60,10 60,90 100,100 L0,100 L0,0 Z"
-              fill="#dbeafe" // azul claro
+              fill="#dbeafe"
             />
           </svg>
         </div>
@@ -86,7 +83,7 @@ function Hero() {
           >
             <path
               d="M100,0 C60,10 60,90 100,100 L0,100 L0,0 Z"
-              fill="#f8f6f3" //offwhite
+              fill="#f8f6f3"
             />
           </svg>
         </div>

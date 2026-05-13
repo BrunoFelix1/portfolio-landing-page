@@ -134,15 +134,15 @@ export function Testimonials() {
                       </p>
                     </div>
 
-                    <div className="pl-[84px]">
+                    <div className="pl-21">
                       <h3 className="font-semibold text-[#4e8c6c]">
                         {item.name}
                       </h3>
 
                       <div className="mt-3 flex gap-1 text-[#4e8c6c]">
-                        {Array.from({ length: 5 }).map((_, index) => (
+                        {[1, 2, 3, 4, 5].map((star) => (
                           <Star
-                            key={index}
+                            key={star}
                             size={14}
                             fill="currentColor"
                             strokeWidth={1.5}
@@ -158,12 +158,15 @@ export function Testimonials() {
         </div>
 
         <div className="mt-10 flex items-center justify-center gap-3">
-          {Array.from({ length: totalPages }).map((_, index) => (
+          {Array.from(
+            { length: totalPages },
+            (_, pageNumber) => pageNumber,
+          ).map((pageNumber) => (
             <button
-              key={index}
-              onClick={() => setPage(index)}
+              key={pageNumber}
+              onClick={() => setPage(pageNumber)}
               className={`h-3 rounded-full transition-all duration-300 ${
-                page === index ? "w-8 bg-[#7db89d]" : "w-3 bg-[#d7dce2]"
+                page === pageNumber ? "w-8 bg-[#7db89d]" : "w-3 bg-[#d7dce2]"
               }`}
             />
           ))}

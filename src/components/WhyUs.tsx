@@ -39,16 +39,19 @@ function WhyUsCard({
 function WhyUs() {
   const items = [
     {
+      id: "humanized-care",
       icon: HeartHandshake,
       title: "Atendimento humanizado",
       description: "Você é único e merece ser tratado como tal.",
     },
     {
+      id: "welcoming-environment",
       icon: Leaf,
       title: "Ambiente acolhedor",
       description: "Um espaço pensado para seu conforto e tranquilidade.",
     },
     {
+      id: "flexible-hours",
       icon: CalendarDays,
       title: "Horários flexíveis",
       description: "Agendamentos que se adaptam à sua rotina.",
@@ -77,7 +80,7 @@ function WhyUs() {
           <div className="grid grid-cols-1 gap-y-14 md:grid-cols-2 xl:grid-cols-3">
             {items.map((item, index) => (
               <WhyUsCard
-                key={index}
+                key={item.id}
                 icon={item.icon}
                 title={item.title}
                 description={item.description}
