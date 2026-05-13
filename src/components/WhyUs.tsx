@@ -50,7 +50,7 @@ function WhyUs() {
     {
       icon: HeartHandshake,
       title: "Atendimento humanizado",
-      description: "Você é único e merece ser tratado com atenção e carinho.",
+      description: "Você é único e merece ser tratado como tal.",
     },
     {
       icon: Leaf,
