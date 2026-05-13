@@ -114,7 +114,7 @@ export function Testimonials() {
                 {visibleTestimonials.map((item) => (
                   <div
                     key={item.id}
-                    className="rounded-[28px] border border-[#edf0f3] bg-white p-8 shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
+                    className="rounded-[28px] border border-[#edf0f3] bg-white p-8 shadow-none border-none transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
                   >
                     <div className="mb-6 flex items-start gap-5">
                       <img

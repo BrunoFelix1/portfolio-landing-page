@@ -78,7 +78,7 @@ function WhyUs() {
               Seu bem-estar é nossa prioridade
             </h2>
 
-            <Button className="mt-8 flex h-12 w-fit items-center gap-3 rounded-full bg-white/80 px-7 text-base font-medium text-[#1e2b50] shadow-sm transition-all duration-300 hover:scale-105 hover:bg-white hover:cursor-pointer">
+            <Button className="mt-8 flex h-12 w-fit items-center gap-3 rounded-full bg-white/80 px-7 text-base font-medium text-[#1e2b50] shadow-none transition-all duration-300 hover:scale-105 hover:bg-white hover:cursor-pointer">
               Conheça a clínica
               <ArrowRight size={18} />
             </Button>
