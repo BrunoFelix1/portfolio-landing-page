@@ -38,9 +38,7 @@ type TeamCardProps = {
 function TeamCard({ image, name, specialty, cro }: TeamCardProps) {
   return (
     <div className="group transition-all duration-300 hover:-translate-y-1">
-      {/* Wrapper */}
       <div className="overflow-hidden rounded-[26px] shadow-none">
-        {/* Image */}
         <div className="overflow-hidden">
           <img
             src={image}
@@ -49,12 +47,9 @@ function TeamCard({ image, name, specialty, cro }: TeamCardProps) {
           />
         </div>
 
-        {/* White Bottom */}
         <div className="relative bg-white pt-0">
-          {/* Rounded Top Effect */}
           <div className="absolute inset-x-0 -top-6 h-12 rounded-t-xl shadow-t-none bg-white" />
 
-          {/* Content */}
           <div className="relative z-10 px-4 pb-4 text-center">
             <h3 className="font-lora text-[20px] font-semibold text-[#1e2b50]">
               {name}
@@ -72,10 +67,9 @@ function TeamCard({ image, name, specialty, cro }: TeamCardProps) {
 
 export function OurTeam() {
   return (
-    <section className="bg-[#f9fafb] px-4 py-10 lg:px-20">
-      <div className="mx-auto max-w-7xl rounded-[40px] bg-[#eef5fb] px-8 py-14 md:px-14">
+    <section className="bg-[#f9fafb] px-4 py-10 lg:px-46">
+      <div className="mx-auto  rounded-[40px] bg-[#eef5fb] px-8 py-14 md:px-14">
         <div className="grid gap-14 lg:grid-cols-[320px_1fr]">
-          {/* Left */}
           <div>
             <span className="text-sm font-semibold uppercase tracking-[0.15em] text-[#7c96b2]">
               Nossa equipe
@@ -94,12 +88,9 @@ export function OurTeam() {
             </Button>
           </div>
 
-          {/* Right */}
           <div>
-            {/* Button */}
             <div className="mb-8 flex justify-end"></div>
 
-            {/* Cards */}
             <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
               {teamMembers.map((member) => (
                 <TeamCard

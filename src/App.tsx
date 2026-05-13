@@ -1,3 +1,4 @@
+import { Footer } from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import OurSolutions from "./components/OurSolutions";
@@ -14,6 +15,7 @@ function App() {
       <WhyUs />
       <Testimonials />
       <OurTeam />
+      <Footer />
     </main>
   );
 }

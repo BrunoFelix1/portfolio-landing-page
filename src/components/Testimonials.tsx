@@ -2,6 +2,7 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { ChevronLeft, ChevronRight, Star } from "lucide-react";
 import { Button } from "./ui/button";
+import RightLeaf from "../assets/RightLeaf.png";
 
 const testimonials = [
   {
@@ -67,8 +68,13 @@ export function Testimonials() {
   const visibleTestimonials = testimonials.slice(start, start + itemsPerPage);
 
   return (
-    <section className="bg-[#f9fafb] px-4 py-18 lg:px-20">
-      <div className="mx-auto max-w-7xl">
+    <section className="bg-[#f9fafb] px-4 py-18 lg:px-42">
+      <img
+        src={RightLeaf}
+        alt="Leaf"
+        className="absolute right-0 h-100 opacity-50"
+      />
+      <div className="mx-auto ">
         <div className="mb-16 text-center">
           <span className="text-sm font-semibold uppercase tracking-[0.15em] text-[#7c96b2]">
             Depoimentos
@@ -85,7 +91,7 @@ export function Testimonials() {
           <Button
             onClick={prevSlide}
             size="icon"
-            className="absolute hover:cursor-pointer hover:bg-transparent  hover:text-green hover:border-green transition-all duration-400  -left-20 top-1/2 z-10 hidden h-12 w-12 -translate-y-1/2 rounded-full bg-white text-[#1e2b50] shadow-md hover:bg-white lg:flex"
+            className="absolute hover:cursor-pointer hover:bg-transparent  hover:text-green hover:border-green transition-all duration-400  -left-20 top-1/2 z-10 hidden h-12 w-12 -translate-y-1/2 rounded-full bg-white text-[#1e2b50] shadow-md lg:flex"
           >
             <ChevronLeft size={22} />
           </Button>
@@ -93,7 +99,7 @@ export function Testimonials() {
           <Button
             onClick={nextSlide}
             size="icon"
-            className="absolute hover:cursor-pointer hover:bg-transparent  hover:text-green hover:border-green transition-all duration-400 -right-20 top-1/2 z-10 hidden h-12 w-12 -translate-y-1/2 rounded-full bg-white text-[#1e2b50] shadow-md hover:bg-white lg:flex"
+            className="absolute hover:cursor-pointer hover:bg-transparent  hover:text-green hover:border-green transition-all duration-400 -right-20 top-1/2 z-10 hidden h-12 w-12 -translate-y-1/2 rounded-full bg-white text-[#1e2b50] shadow-md lg:flex"
           >
             <ChevronRight size={22} />
           </Button>
