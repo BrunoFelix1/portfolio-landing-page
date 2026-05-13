@@ -7,6 +7,7 @@
   Baby,
   ScanHeart,
 } from "lucide-react";
+import Leaf from "../assets/Leaf.png";
 
 const solutions = [
   {
@@ -63,11 +64,6 @@ function SolutionsCard({
 }>) {
   return (
     <article className="group flex items-start gap-5 rounded-[32px] border border-slate-200 bg-white p-6 transition-shadow duration-300 hover:shadow-sm rounded-t-2xl ">
-      <div
-        className={`flex h-16 aspect-square items-center justify-center rounded-full ${iconBg} transition-colors duration-300`}
-      >
-        {icon}
-      </div>
       <div className="min-w-0">
         <h3 className="text-lg font-semibold text-dark-blue">{title}</h3>
         <p className="mt-3 text-sm leading-6 text-gray-600">{description}</p>
@@ -85,7 +81,12 @@ function SolutionsCard({
 
 function OurSolutions() {
   return (
-    <section className="relative z-20 -mt-10 overflow-hidden rounded-t-[3rem] bg-[#f9fafb] py-20 px-30 shadow-[0_-50px_60px_-40px_rgba(15,23,42,0.15)]">
+    <section className="relative z-20 -mt-14 overflow-hidden rounded-t-[3.5rem] bg-[#f9fafb] py-20 px-30 shadow-[0_-50px_60px_-40px_rgba(15,23,42,0.15)]">
+      <img
+        src={Leaf}
+        alt="minor leaf on section"
+        className="absolute top-20 left-0 opacity-50"
+      />
       <div className="mx-auto px-6 ">
         <div className="grid gap-8 sm:grid-cols-[minmax(0,0.9fr)_minmax(0,0.5fr)] sm:items-end sm:gap-12">
           <div>
