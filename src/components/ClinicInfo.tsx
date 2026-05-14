@@ -1,12 +1,4 @@
-import {
-  MapPin,
-  Mail,
-  Phone,
-  Clock,
-  Building2,
-  CalendarCheck,
-  Leaf,
-} from "lucide-react";
+import { MapPin, Mail, Phone, Clock, Building2 } from "lucide-react";
 import { Button } from "./ui/button";
 import leaf from "@/assets/Leaf.png";
 
