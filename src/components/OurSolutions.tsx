@@ -90,7 +90,7 @@ function OurSolutions() {
       <div className="mx-auto px-6 ">
         <div className="grid gap-8 sm:grid-cols-[minmax(0,0.9fr)_minmax(0,0.5fr)] sm:items-end sm:gap-12">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-[0.32em] text-light-blue">
+            <p className="text-sm font-semibold  tracking-[0.32em] text-light-blue">
               Nossos tratamentos
             </p>
             <h2 className="mt-3 text-3xl font-semibold font-lora leading-tight text-dark-blue sm:text-4xl max-w-100">

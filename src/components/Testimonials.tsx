@@ -76,7 +76,7 @@ export function Testimonials() {
       />
       <div className="mx-auto ">
         <div className="mb-16 text-center">
-          <span className="text-sm font-semibold uppercase tracking-[0.15em] text-[#7c96b2]">
+          <span className="text-sm font-semibold  tracking-[0.15em] text-[#7c96b2]">
             Depoimentos
           </span>
 

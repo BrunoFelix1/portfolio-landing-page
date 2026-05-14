@@ -71,7 +71,7 @@ export function OurTeam() {
       <div className="mx-auto  rounded-[40px] bg-[#eef5fb] px-8 py-14 md:px-14">
         <div className="grid gap-14 lg:grid-cols-[320px_1fr]">
           <div>
-            <span className="text-sm font-semibold uppercase tracking-[0.15em] text-[#7c96b2]">
+            <span className="text-sm font-semibold  tracking-[0.15em] text-[#7c96b2]">
               Nossa equipe
             </span>
 
@@ -82,7 +82,7 @@ export function OurTeam() {
               Uma equipe dedicada, bem formada e comprometida com o seu
               bem-estar.
             </h3>
-            <Button className="mt-8 flex h-12 w-fit items-center gap-3 rounded-full bg-white px-7 text-base font-medium text-[#1e2b50]  transition-all duration-300 hover:-translate-y-0.5 hover:bg-white hover:cursor-pointer">
+            <Button className="mt-8 flex h-12 w-fit items-center gap-3 rounded-full bg-white px-7 text-base font-normal text-[#1e2b50]  transition-all duration-300 hover:-translate-y-0.5 hover:bg-white hover:cursor-pointer">
               Conheça toda a equipe
               <ArrowRight size={18} />
             </Button>

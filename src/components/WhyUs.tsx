@@ -63,7 +63,7 @@ function WhyUs() {
       <div className="mx-auto  rounded-[40px] bg-[#eef5fb] px-8 py-14 md:px-14">
         <div className="grid gap-16 lg:grid-cols-[1.1fr_2fr]">
           <div className="flex flex-col justify-center">
-            <span className="mb-4 text-sm font-semibold uppercase tracking-[0.15em] text-[#7c96b2]">
+            <span className="mb-4 text-sm font-semibold  tracking-[0.15em] text-[#7c96b2]">
               Por que escolher a gente?
             </span>
 
@@ -71,7 +71,7 @@ function WhyUs() {
               Seu bem-estar é nossa prioridade
             </h2>
 
-            <Button className="mt-8 flex h-12 w-fit items-center gap-3 rounded-full bg-white px-7 text-base font-medium text-[#1e2b50] shadow-none transition-all duration-300 hover:-translate-y-0.5 hover:bg-white hover:cursor-pointer">
+            <Button className="mt-8 font-normal flex h-12 w-fit items-center gap-3 rounded-full bg-white px-7 text-base  text-[#1e2b50] shadow-none transition-all duration-300 hover:-translate-y-0.5 hover:bg-white hover:cursor-pointer">
               Conheça a clínica
               <ArrowRight size={18} />
             </Button>

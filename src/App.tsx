@@ -1,5 +1,6 @@
 import { Footer } from "./components/Footer";
 import Hero from "./components/Hero";
+import ClinicInfo from "./components/ClinicInfo";
 import Navbar from "./components/Navbar";
 import OurSolutions from "./components/OurSolutions";
 import { OurTeam } from "./components/OurTeam";
@@ -15,6 +16,7 @@ function App() {
       <WhyUs />
       <Testimonials />
       <OurTeam />
+      <ClinicInfo />
       <Footer />
     </main>
   );

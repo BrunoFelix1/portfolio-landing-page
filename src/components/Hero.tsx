@@ -22,13 +22,13 @@ function Hero() {
           <div className="mt-8 flex items-start  divide-x divide-gray-300"></div>
 
           <div className="mt-3 mb-10 flex items-center gap-4">
-            <Button className="px-8 py-7 rounded-sm bg-green text-white  shadow-none hover:-translate-y-0.5 transition-all duration-300 flex items-center hover:cursor-pointer">
+            <Button className="px-8 py-7 font-normal rounded-sm bg-green text-white  shadow-none hover:-translate-y-0.5 transition-all duration-300 flex items-center hover:cursor-pointer">
               Agendar consulta
               <Calendar className="ml-1 h-4 w-4" />
             </Button>
             <Button
               variant="outline"
-              className="px-7 py-6 rounded-sm border-none text-gray-700 hover:bg-white bg-white hover:-translate-y-0.5 transition-all duration-300 flex items-center hover:cursor-pointer"
+              className="px-7 py-6 rounded-sm font-normal border-none text-gray-700 hover:bg-white bg-white hover:-translate-y-0.5 transition-all duration-300 flex items-center hover:cursor-pointer"
             >
               Conheça a clínica
               <PlayCircle className="ml-1 h-4 w-4" />
