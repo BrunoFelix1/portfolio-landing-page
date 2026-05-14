@@ -91,7 +91,7 @@ export function Testimonials() {
           <Button
             onClick={prevSlide}
             size="icon"
-            className="absolute hover:cursor-pointer hover:bg-transparent  hover:text-green hover:border-green transition-all duration-400  -left-20 top-1/2 z-10 hidden h-12 w-12 -translate-y-1/2 rounded-full bg-white text-[#1e2b50] shadow-md lg:flex"
+            className="absolute hover:cursor-pointer  hover:text-green hover:border-green transition-all duration-400  -left-20 top-1/2 z-10 hidden h-12 w-12 -translate-y-1/2 rounded-full bg-white text-[#1e2b50] shadow-sm lg:flex"
           >
             <ChevronLeft size={22} />
           </Button>
@@ -99,7 +99,7 @@ export function Testimonials() {
           <Button
             onClick={nextSlide}
             size="icon"
-            className="absolute hover:cursor-pointer hover:bg-transparent  hover:text-green hover:border-green transition-all duration-400 -right-20 top-1/2 z-10 hidden h-12 w-12 -translate-y-1/2 rounded-full bg-white text-[#1e2b50] shadow-md lg:flex"
+            className="absolute hover:cursor-pointer   hover:text-green hover:border-green transition-all duration-400 -right-20 top-1/2 z-10 hidden h-12 w-12 -translate-y-1/2 rounded-full bg-white text-[#1e2b50] shadow-sm lg:flex"
           >
             <ChevronRight size={22} />
           </Button>
@@ -120,7 +120,7 @@ export function Testimonials() {
                 {visibleTestimonials.map((item) => (
                   <div
                     key={item.id}
-                    className="rounded-[28px] border border-[#edf0f3] bg-white p-8 shadow-none border-none transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
+                    className="rounded-[28px] border border-[#edf0f3] bg-white p-8 shadow-none border-none transition-all duration-300 hover:-translate-y-1 "
                   >
                     <div className="mb-6 flex items-start gap-5">
                       <img

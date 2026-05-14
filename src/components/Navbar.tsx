@@ -1,3 +1,4 @@
+import { ArrowLeft, ArrowRight } from "lucide-react";
 import { Button } from "./ui/button";
 import logo from "@/assets/Logo.png";
 
@@ -70,10 +71,11 @@ function Navbar() {
 
         <div className="flex items-center">
           <Button
-            className="rounded-4xl px-7 py-6 bg-green shadow-sm hover:bg-green/90 text-sm font-medium text-white transition-all duration-250 hover:cursor-pointer"
-            variant="default"
+            className="rounded-4xl border-none text-green hover:text-green/80 bg-transparent hover:bg-transparent hover:cursor-pointer transition-all duration-200 flex items-center"
+            variant="outline"
           >
             Agendar consulta
+            <ArrowRight className="h-4 w-4" aria-hidden="true" />
           </Button>
         </div>
       </div>

@@ -35,7 +35,7 @@ type TeamCardProps = {
   cro: string;
 };
 
-function TeamCard({ image, name, specialty, cro }: TeamCardProps) {
+function TeamCard({ image, name, specialty, cro }: Readonly<TeamCardProps>) {
   return (
     <div className="group transition-all duration-300 hover:-translate-y-1">
       <div className="overflow-hidden rounded-[26px] shadow-none">
@@ -43,7 +43,7 @@ function TeamCard({ image, name, specialty, cro }: TeamCardProps) {
           <img
             src={image}
             alt={name}
-            className="aspect-[10/10] w-full object-cover transition-transform duration-500 "
+            className="aspect-10/10 w-full object-cover transition-transform duration-500 "
           />
         </div>
 
@@ -82,7 +82,7 @@ export function OurTeam() {
               Uma equipe dedicada, bem formada e comprometida com o seu
               bem-estar.
             </h3>
-            <Button className="mt-8 flex h-12 w-fit items-center gap-3 rounded-full bg-white/80 px-7 text-base font-medium text-[#1e2b50]  transition-all duration-300 hover:scale-105 hover:bg-white hover:cursor-pointer">
+            <Button className="mt-8 flex h-12 w-fit items-center gap-3 rounded-full bg-white px-7 text-base font-medium text-[#1e2b50]  transition-all duration-300 hover:-translate-y-0.5 hover:bg-white hover:cursor-pointer">
               Conheça toda a equipe
               <ArrowRight size={18} />
             </Button>

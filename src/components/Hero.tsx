@@ -1,6 +1,6 @@
-import womanHero from "../assets/HeroWoman.png";
+import Dentista from "../assets/Dentista.jpg";
 import { Button } from "./ui/button";
-import { Calendar, Cpu, Home, PlayCircle, UserCheck } from "lucide-react";
+import { Calendar, PlayCircle } from "lucide-react";
 
 function Hero() {
   return (
@@ -19,35 +19,16 @@ function Hero() {
             Muito mais que tratamentos, oferecemos experiências acolhedoras e
             humanas para deixar você sorrindo com confiança.
           </p>
-          <div className="mt-8 flex items-start  divide-x divide-gray-300">
-            <div className="">
-              <FeatureCard
-                title="Atendimento humanizado"
-                icon={<UserCheck className="h-10 w-10 text-light-blue/80" />}
-              />
-            </div>
-            <div className="px-6">
-              <FeatureCard
-                title="Tecnologia avançada"
-                icon={<Cpu className="h-10 w-10 text-light-blue/80" />}
-              />
-            </div>
-            <div className="px-6">
-              <FeatureCard
-                title="Ambiente acolhedor"
-                icon={<Home className="h-10 w-10 text-light-blue/80" />}
-              />
-            </div>
-          </div>
+          <div className="mt-8 flex items-start  divide-x divide-gray-300"></div>
 
-          <div className="mt-9 flex items-center gap-4">
-            <Button className="px-8 py-7 bg-green text-white rounded-4xl shadow-md hover:bg-green/90 transition-colors duration-250 flex items-center hover:cursor-pointer">
+          <div className="mt-3 mb-10 flex items-center gap-4">
+            <Button className="px-8 py-7 rounded-sm bg-green text-white  shadow-none hover:-translate-y-0.5 transition-all duration-300 flex items-center hover:cursor-pointer">
               Agendar consulta
               <Calendar className="ml-1 h-4 w-4" />
             </Button>
             <Button
               variant="outline"
-              className="px-7 py-6 border border-gray-300 rounded-4xl text-gray-700 bg-white hover:bg-gray-100 transition-colors duration-250 flex items-center hover:cursor-pointer"
+              className="px-7 py-6 rounded-sm border-none text-gray-700 hover:bg-white bg-white hover:-translate-y-0.5 transition-all duration-300 flex items-center hover:cursor-pointer"
             >
               Conheça a clínica
               <PlayCircle className="ml-1 h-4 w-4" />
@@ -58,7 +39,7 @@ function Hero() {
 
       <div className="w-1/2 relative">
         <img
-          src={womanHero}
+          src={Dentista}
           alt="Paciente sorrindo"
           className="w-full h-full object-cover"
         />
