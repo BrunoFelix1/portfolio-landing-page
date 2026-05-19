@@ -7,7 +7,6 @@ import leaf from "@/assets/Leaf.png";
 export default function ClinicContactForm() {
   return (
     <section className="relative overflow-hidden bg-[#f8faf8]  py-16 lg:px-50">
-      {/* Decorative Leaf */}
       <img
         src={leaf}
         alt="Leaf"
@@ -15,7 +14,6 @@ export default function ClinicContactForm() {
       />
 
       <div className="mx-auto grid  gap-10 lg:grid-cols-2">
-        {/* Left Content */}
         <div className="flex flex-col justify-center">
           <span className="text-sm font-semibold tracking-[0.18em] text-[#7c96b2] uppercase">
             Entre em contato
@@ -63,7 +61,6 @@ export default function ClinicContactForm() {
           </div>
         </div>
 
-        {/* Form Card */}
         <div className="rounded-[32px] border-none bg-white/90 p-8  backdrop-blur">
           <form className="flex flex-col gap-5">
             <div className="grid gap-5 md:grid-cols-2">
